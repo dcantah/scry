@@ -2,6 +2,7 @@
 name = "scry"
 version = "0.1.0"
 edition = "2024"
+rust-version = "1.88"
 license = "Apache-2.0"
 description = "TUI process inspector for Linux. Memory map, threads, fds, limits, cgroup, kernel stack, syscall trace."
 repository = "https://github.com/dcantah/scry"
@@ -16,3 +17,4 @@ ratatui = "0.29"
 [profile.release]
 lto = "thin"
 codegen-units = 1
+strip = true
