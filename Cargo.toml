@@ -7,11 +7,11 @@ description = "TUI process inspector for Linux. Memory map, threads, fds, limits
 repository = "https://github.com/dcantah/scry"
 
 [dependencies]
-anyhow = "1.0.98"
-clap = { version = "4.5.40", features = ["derive"] }
-crossterm = "0.28.1"
-libc = "0.2.174"
-ratatui = "0.29.0"
+anyhow = "1"
+clap = { version = "4", features = ["derive"] }
+crossterm = "0.28"
+libc = "0.2"
+ratatui = "0.29"
 
 [profile.release]
 lto = "thin"
