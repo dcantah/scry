@@ -1,10 +1,12 @@
 # scry
 
+![scry inspecting a containerized nginx](vhs/demo.gif)
+
 A terminal UI process inspector for Linux. Point it at a pid and get live, annotated views of a processes: memory map, threads, open files, limits, cgroup membership, environment, capabilities, namespaces, security posture, kernel stack, and a live syscall stream (requires strace).
 
 ## Why
 
-There's many tools that offer a lot of what this tool does, but none that I could find that satisfied the Swiss army knife style that I was after (and the set of things that I generally care about).  I'm open to any new additions in the list that someone finds useful as well.
+There's many tools that offer a lot of what this tool does, but none that I could find that satisfied the Swiss army knife style that I was after (and the set of things that I generally care about). I'm open to any new additions in the list that someone finds useful as well.
 
 The name is in reference to [scrying](https://en.wikipedia.org/wiki/Scrying).
 
